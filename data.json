@@ -4,7 +4,7 @@
         "name": "Alma Negra Misterio I",
         "price": "4699",
         "categoria": "Blends",
-        "image": "assets/img/blend/almanegra_misterio_I.jpg" 
+        "image": "assets/img/blend/Almanegra_misterio_I.jpg" 
     },
     {
         "id":102,
@@ -60,7 +60,7 @@
         "name": "Finca Notables",
         "price": "4500",
         "categoria": "Malbec",
-        "image": "assets/img/malbec/esteco_finca_notables_malbec.jpg"
+        "image": "assets/img/malbec/Esteco_finca_notables_malbec.jpg"
     },
     {
         "id":110,
@@ -81,7 +81,7 @@
         "name": "Bramare",
         "price": "3500",
         "categoria": "Pinot Noir",
-        "image": "assets/img/pinot/bramare_pinot.jpg"
+        "image": "assets/img/pinot/Bramare_pinot.jpg"
     },
 
     {
