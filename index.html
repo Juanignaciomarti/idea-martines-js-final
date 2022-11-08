@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Wine cellar- Shopping Cart</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--Sweet Alert 2-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--BOX ICONS-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel="stylesheet">
+
+</head>
+    <body>
+    <!--header-->
+    <header>
+        <!--nav-->
+        <div class="nav container">
+            <a href="#" class="logo">The Wine Cellar</a>
+            <!--carrito de compras icono-->
+            <i class='bx bx-cart' id="cart-icon"></i>
+            <!--carrito de compras-->
+            <div class="cart">
+                <h2 class="cart-title">Mi Carrito</h2>
+                <!--Content-->
+                <div class="cart-content">
+                </div>
+                <!--Total-->
+                <div class="total">
+                    <div class="total-tittle">Total</div>
+                    <div class="total-price">$0</div>
+                </div>
+                <!--Boton para comprar-->
+                <button type="button" class="btn-buy">Comprar</button>
+                <!--Cart Close-->
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="shop container">
+        <h2 class="section-tittle">Seleccion de vinos</h2>
+        <div class="shop-content" id="shop-content"></div>
+        
+    </section>
+
+    <!--JAVA SCRIPT-->
+        <script src="js/main.js"></script>
+    </body>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="index.html">
+                        <h2>The Wine Cellar</h2>
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Tu vinoteca virtual preferida
+                <br>¡hace tu pedido!.</p>
+            </div>
+        <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="grupo-2">
+        <small>&copy; 2022 <b>The Wine cellar</b> - All rights reserved </small>
+    </div>
+</footer>
+</html>
